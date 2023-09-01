@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Dropdown, Container, Navbar, Button } from "react-bootstrap";
+import { Dropdown, Container, Navbar, Button, Nav as NavB } from "react-bootstrap";
 import useTheme from "../hooks/useTheme";
 
 export function Nav({ t, changeLanguage }) {
@@ -12,6 +12,11 @@ export function Nav({ t, changeLanguage }) {
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
+                    <NavB>
+                        <NavB.Link href="#about">{t("about.link")}</NavB.Link>
+                        <NavB.Link href="#who">{t("who.link")}</NavB.Link>
+                        <NavB.Link href="#projects">{t("projects.link")}</NavB.Link>
+                    </NavB>
                     <LanguageSelector t={t} changeLanguage={changeLanguage} />
                     <ThemeSelector t={t} />
                 </Navbar.Collapse>
