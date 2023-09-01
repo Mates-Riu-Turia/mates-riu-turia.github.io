@@ -7,5 +7,14 @@
         "light": " Clar",
         "dark": " Fosc",
         "auto": " Automàtic"
+    },
+    "about": {
+        "link": "Sobre nosaltres"
+    },
+    "who": {
+        "link": "Integrants"
+    },
+    "projects": {
+        "link": "Projectes"
     }
 }
