@@ -8,7 +8,7 @@ export function Nav({ t, changeLanguage }) {
             <Container fluid>
                 <Navbar.Brand href="/">
                     <img src="/images/favicon.ico" alt="Logo" width="180" height="60" className="d-inline-block align-text-middle" />
-                    <span className="d-none">{t("titleLong")}</span>
+                    <span>{t("titleLong")}</span>
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
