@@ -7,5 +7,14 @@
         "light": " Claro",
         "dark": " Oscuro",
         "auto": " Automático"
+    },
+    "about": {
+        "link": "Sobre nosotros"
+    },
+    "who": {
+        "link": "Integrantes"
+    },
+    "projects": {
+        "link": "Proyectos"
     }
 }
