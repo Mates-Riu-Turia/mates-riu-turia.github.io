@@ -7,5 +7,14 @@
         "light": " Light",
         "dark": " Dark",
         "auto": " Auto"
+    },
+    "about": {
+        "link": "About us"
+    },
+    "who": {
+        "link": "Members"
+    },
+    "projects": {
+        "link": "Projects"
     }
 }
