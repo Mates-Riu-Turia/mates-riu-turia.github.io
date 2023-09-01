@@ -1,3 +1,11 @@
 {
-    "title": "Riu Turia Math"
+    "title": "Riu Turia Math",
+    "titleLong": "Dept. of Mathematics of the IES Riu Túria",
+    "chooseLang": "Choose a language",
+    "orgName": "© 2023 Dept. of Mathematics of the IES Riu Túria",
+    "themeSelector": {
+        "light": " Light",
+        "dark": " Dark",
+        "auto": " Auto"
+    }
 }
